@@ -2,14 +2,18 @@ package test1;
 
 public class Candidate {
 
-	String Name;
+	Integer Id;
+	
+	public Integer getId() {
+		return Id;
+	}
+	public void setId(Integer id) {
+		Id = id;
+	}
 	boolean contesting;
-	public String getName() {
-		return Name;
-	}
-	public void setName(String name) {
-		Name = name;
-	}
+	Integer votes=0;
+
+	
 	public boolean isContesting() {
 		return contesting;
 	}

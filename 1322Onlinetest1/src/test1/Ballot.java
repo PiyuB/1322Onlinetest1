@@ -1,17 +1,12 @@
 package test1;
 
-public class BU_CandidateButton implements Button {
-    boolean status=false;
-    Integer id;
+public class Ballot extends CU_Buttons{
+
 	@Override
 	public boolean pressButton(boolean status) {
 		// TODO Auto-generated method stub
-		
 		this.status=status;
-		return status;
+		return this.status;
 	}
-	
 
-   
-	
 }
